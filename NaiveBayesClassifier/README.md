@@ -1,20 +1,22 @@
 NaiveBayesClassifier
 ====================
 
-Implementation of Multinomial Naive Bayes Text Classifier.
+A Naive Bayes classifier that has 2,225 articles of news belongign to 5 different classes.
 
-For more information concerning the Machine Learning model check out:
+The dataset of news is taken from BBC archive. And it consists of 5 classes (business, politics, sports, tech, entertainment).
 
-http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/
+This classifier makes use of the code taken from DatumBox. 
 
-http://blog.datumbox.com/machine-learning-tutorial-the-naive-bayes-text-classifier/
+Link: http://www.datumbox.com/
 
-http://blog.datumbox.com/using-feature-selection-methods-in-text-classification/
+Link: http://blog.datumbox.com/
 
+This classifier has been trained upon 2,080 news articles.
 
-Useful Links
-============
+This text/news classifier shows accuracies as follows:
 
-Datumbox: http://www.datumbox.com/
+Training Accuracy on Whole training dataset = 75.8001 %
 
-Machine Learning Blog: http://blog.datumbox.com/
+Training Accuracy on Subset of training dataset (30 articles from each class)  = 78%
+
+Test Accuracy on Unseen news articles (30 articles from each class)  = 77.2143%
